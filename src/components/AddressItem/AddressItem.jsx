@@ -11,7 +11,7 @@ const AddressItem = ({ address, list, setList, del_i }) => {
       <p> NAME: {address.name}</p>
       <p> SURNAME: {address.surname}</p>
       <p> ADDRESS: {address.address}</p>
-      <button onClick={onHandleClick}> AAAA</button>
+      <button onClick={onHandleClick}> Delete</button>
     </div>
   );
 };
